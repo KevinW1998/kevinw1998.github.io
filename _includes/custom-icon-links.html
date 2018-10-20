@@ -1,0 +1,14 @@
+  {% if site.kevsoft.github %}
+    <a id="github-link"
+       class="icon" title="My Github" aria-label="My Github"
+       href="{{ site.kevsoft.github }}">
+      {% include svg/github.svg %}
+    </a>
+  {% endif %}
+  {% if site.kevsoft.gitlab %}
+    <a id="gitlab-link"
+       class="icon" title="My Gitlab" aria-label="My Gitlab"
+       href="{{ site.kevsoft.gitlab }}">
+      {% include svg/gitlab.svg %}
+    </a>
+  {% endif %}
