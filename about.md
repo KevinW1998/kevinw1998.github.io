@@ -17,7 +17,7 @@ Currently I am doing the mandetory alternative civilian service in Austria.
 
 * 2017-current: [Project Celeste](http://projectceleste.com)
 * 2014-2017: [LunaLua](http://wohlsoft.ru/LunaLua/)
-* 2014-2015: [PGE Project](http://wohlsoft.ru/PGE/)
+* 2014-2016: [PGE Project](http://wohlsoft.ru/PGE/)
 * 2012-2013: [Minecraft Bukkit Plugins](https://dev.bukkit.org/members/KevinW1998/projects)
 
 Thanks to these community projects I was able to gain a lot of knowledge in C++ and software engineering in general. 
