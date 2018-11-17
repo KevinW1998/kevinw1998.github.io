@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "The history about Haxagon"
+title:  "The history of Haxagon"
 date:   2018-11-17 12:00:00 +0200
 categories: home
 excerpt_separator:  <!--more-->
