@@ -12,7 +12,7 @@ Before I begin what Haxagon is, I need to give a quick introduction to SMBX 1.4 
 
 SMBX (1.0 to 1.3) is a fan game made by Redigit. It is a mixup from various Super Mario games and even includes assets from Metroid or Zelda. It has gained a lot of popularity over the time but development has been ceased in 2011 so that SMBX 1.3 was the last version which was officially released. Over the time SMBX has been improved by user patches, most notably by LunaLua/LunaDLL. In 2015 a user named "5438A38A" posted a screenshot with an own version of SMBX named "SMBX 1.4" on the Chinese forum board [baidu](https://tieba.baidu.com/smbx). A lot of user speculated that this was fake. However in this screenshot there is a snippets of code included, which looked genuine. A few months later "SMBX 1.4" was relased on the baidu forum board. It didn't take long until players outside of China noticed about the existence of this game. The core of SMBX 1.4 is pretty good given that it was written from scratch. It is compatible with SMBX 1.3 but has complete different physics.
 
-## The minigames
+## The Minigames
 
 Now SMBX 1.4 was very popular at this time, especially at the chinese community. But players and designers noticed something in the editor. In the config file of the game there was config entry named `DisableHiddenFeatures=true`. Setting this to false seemed to do nothing at first, but after a while new buttons and strange text boxes appeared. Interacting with those triggered something that nobody really expected: Minigames. It includes [various challenges](https://wohlsoft.ru/forum/viewtopic.php?f=58&t=778) like math questions, logic games, ect... If you successfully finished one of these challenges you were rewarded with more features you could use in the editor.
 
@@ -27,7 +27,7 @@ While I was developing [LunaLua](https://wohlsoft.ru/LunaLua/) I decided to use 
 
 So now I had to inject my own code now that I knew which function was important. Now there are several way in doing so. The easiest way would be DLL Injection. But luckily SMBX 1.4 uses a open-source DLL called SDL_Mixer which is loaded into memory. So basically I only had to add my code to this DLL. And this is how the first version of Haxagon was born. The name "Haxagon" is related to "Hax" which is a shorted version of "Hacks". Basically a program which hacks into SMBX 1.4.
 
-### First version
+### First Version
 
 The first version of Haxagon was very simple. While the game was loading, a console would pop up with the request whether Haxagon should be activated. If yes, then you could select the haxagon tasks you want to activate. The first haxagon task was unlocking the features by just calling the native function of the SMBX binary. I've released this version to a very small group of people I could trust and they appreciated it. After that I decided to investigate even more things about SMBX 1.4. What about all those TEA files? What about resource.tea? Are there more functions to TEA-Script. We tested, we tried, we had a lot of fun. The first version of haxagon was even able to decrypt encrypted level files.
 
