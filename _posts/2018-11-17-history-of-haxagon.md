@@ -17,8 +17,9 @@ SMBX (1.0 to 1.3) is a fan game made by Redigit. It is a mixup from various Supe
 Now SMBX 1.4 was very popular at this time, especially at the chinese community. But players and designers noticed something in the editor. In the config file of the game there was config entry named `DisableHiddenFeatures=true`. Setting this to false seemed to do nothing at first, but after a while new buttons and strange text boxes appeared. Interacting with those triggered something that nobody really expected: Minigames. It includes [various challenges](https://wohlsoft.ru/forum/viewtopic.php?f=58&t=778) like math questions, logic games, ect... If you successfully finished one of these challenges you were rewarded with more features you could use in the editor.
 
 But there were several problems:
-1.) Some of the minigames are really hard to solve.
-2.) Some of the features unlocked were important as they should be available in the first place.
+
+* Some of the minigames are really hard to solve.
+* Some of the features unlocked were important as they should be available in the first place.
 
 ## Haxagon
 
@@ -33,7 +34,6 @@ The first version of Haxagon was very simple. While the game was loading, a cons
 ![The first version](/assets/2018-11-17-haxagon/haxagon-0.png)
 
 ![Haxagon programs](/assets/2018-11-17-haxagon/haxagon-1.png)
-
 
 ### Haxagon Remastered
 
