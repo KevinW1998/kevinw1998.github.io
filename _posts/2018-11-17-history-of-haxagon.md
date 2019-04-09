@@ -23,9 +23,9 @@ But there were several problems:
 
 ## Haxagon
 
-While I was developing [LunaLua](https://wohlsoft.ru/LunaLua/) I decided to use my knowledge in hacking also for SMBX 1.4. I started up IDA Pro and did some data crunching. I opened up a closed group for people who I trusted. I didn't want to let everyone know about it especially because it 5438A38A was actively working on it. It didn't take long until I've found the function which triggers the unlock.
+While I was developing [LunaLua](https://wohlsoft.ru/LunaLua/) I decided to use my knowledge in hacking also for SMBX 1.4. I started up IDA Pro and did some data crunching. I opened up a closed group for people who I trusted. I didn't want to let everyone know about it especially because 5438A38A was actively working on it. It didn't take long until I've found the function which triggers the unlock.
 
-So now I had to inject my own code now that I knew which function was important. Now there are several way in doing so. The easiest way would be DLL Injection. But luckily SMBX 1.4 uses a open-source DLL called SDL_Mixer which is loaded into memory. So basically I only had to add my code to this DLL. And this is how the first version of Haxagon was born. The name "Haxagon" is related to "Hax" which is a shorted version of "Hacks". Basically a program which hacks into SMBX 1.4.
+So now I had to inject my own code now that I knew which function was important. Now there are several ways in doing so. The easiest way would be DLL Injection. But luckily SMBX 1.4 uses a open-source DLL called SDL_Mixer which is loaded into memory. So basically I only had to add my code to this DLL. And this is how the first version of Haxagon was born. The name "Haxagon" is related to "Hax" which is a shorted version of "Hacks". Basically a program which hacks into SMBX 1.4.
 
 ### First Version
 
