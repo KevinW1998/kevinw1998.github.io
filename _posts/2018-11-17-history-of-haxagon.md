@@ -37,7 +37,7 @@ The first version of Haxagon was very simple. While the game was loading, a cons
 
 ### Haxagon Remastered
 
-There is a huge problem with the first version of haxagon: It isn't user-friendly. A well-designed GUI would be better, at least for haxagon tasks which required a user inputs. But C++ isn't that good with GUIs. So I needed another language and I selected C#. C# has winforms which provides an easy way to create native GUIs. But with C# I would lose the possibility to use SDL_Mixer to hack me into the program without a hassle. So I needed an equally good solution for C# and luckily I found EasyHooks. With EasyHooks I can hack me in at run-time and do the necessary patches. And so was [Haxagon Remarstered](https://wohlsoft.ru/forum/viewtopic.php?f=58&t=2610) born, the one I eventually released to the public.
+There is a huge problem with the first version of haxagon: It isn't user-friendly. A well-designed GUI would be better, at least for haxagon tasks which requires user inputs. But C++ isn't that good with GUIs. So I needed another language and I selected C#. C# has winforms which provides an easy way to create native GUIs. But with C# I would lose the possibility to use SDL_Mixer to hack me into the program without a hassle. So I needed an equally good solution for C# and luckily I found EasyHooks. With EasyHooks I can hack me in at run-time and do the necessary patches. And so was [Haxagon Remarstered](https://wohlsoft.ru/forum/viewtopic.php?f=58&t=2610) born, the one I eventually released to the public.
 
 ### The Reaction
 
